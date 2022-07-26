@@ -1,0 +1,35 @@
+---
+title: ecoWaste 설치 및 로그인
+author: ㈜미니소프트
+category: Jekyll
+layout: post
+# cover: /assets/jekyll-gitbook/dinosaur.gif
+---
+
+***
+
+## 기초정보
+- ecoWaste 설치 사이트 주소: <http://app.ecowaste.co.kr/Updater/publish.htm>
+
+> ##### ※ 권장 브라우저: 크롬(Chrome)
+>
+> Internet Explorer 서비스 종료됨으로 안정적인 서비스 이용을 위해 크롬 브라우저 사용 권장
+{: .block-danger }
+
+## Chrome에서 사이트 접속 방법 및 ecoWaste설치
+- Chrome 브라우저 실행 (설치 전이면 크롬 다운로드하여 설치: [다운로드][1]
+- Chrome 브라우저 주소 입력창에 ecoWaste 사이트 주소(<http://app.ecowaste.co.kr/Updater/publish.htm>) 입력 후 엔터하여 설치 화면으로 이동
+- 설치 버튼을 눌러 ecoWaste 설치
+![](/images/com/install.png)  
+
+
+## 로그인방법
+- 바탕화면에있는 ecoWaste 아이콘 클릭 후 응용프로그램 실행
+
+> ##### ※ 최초 비밀번호는 [1234]
+>
+> 아이디가 없는 경우는 관리자에게 문의하세요.
+{: .block-danger }
+![로그인](/images/com/login.png)
+
+[1]: https://www.google.co.kr/chrome/?brand=CHBD&gclid=EAIaIQobChMI69iD5Yjl6gIVWKWWCh3VAQOAEAAYASAAEgLGxPD_BwE&gclsrc=aw.ds

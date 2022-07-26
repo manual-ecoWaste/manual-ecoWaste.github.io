@@ -1,7 +1,6 @@
 ---
 title: Wide tables
-author: Tao He
-date: 2022-06-26
+author: ㈜미니소프트
 category: Jekyll
 layout: post
 ---

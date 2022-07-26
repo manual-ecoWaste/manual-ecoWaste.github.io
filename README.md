@@ -1,128 +1,180 @@
-# LessOrMore
-
-
-致谢
-====================================
-+ 感谢[Less官网](http://lesscss.cn/)的样式，本Jekyll框架的样式都是基于Less官网的样式直接拷贝过来的。只是重构了JS，并且加入了Jekyll语法而已。
-+ 感谢[Github](https://github.com/)提供的代码维护和发布平台
-+ 感谢[Jekyll](https://jekyllrb.com/)团队做出如此优秀的产品
-+ 感谢[Solar](https://github.com/mattvh/solar-theme-jekyll)的原作者[Matt Harzewski](http://www.webmaster-source.com/)，在`2014.11`-`2016.09`的两年间，我的博客选用了此样式模版
-
-
-使用
-====================================
-
-下载
-------------------------------------
-
-使用git从[LessOrMore](https://github.com/luoyan35714/LessOrMore.git)主页下载项目
-
-``` bash
-git clone https://github.com/luoyan35714/LessOrMore.git
-```
-
-配置
-------------------------------------
-
-`LessOrMore`项目需要配置的只有一个文件`_config.yml`，打开之后按照如下进行配置。
-
-> 特别注意`baseurl`的配置。如果是`***.github.io`项目，不修改为空''的话，会导致JS,CSS等静态资源无法找到的错误
-
-``` bash
-name: 博客名称
-email: 邮箱地址
-author: 作者名
-url: 个人网站
-# baseurl修改为项目名，如果项目是'***.github.io'，则设置为空''
-baseurl: "/LessOrMore"
-resume_site: 个人简历网站
-github: github地址
-github_username: github用户名称
-# 请到百度统计官网[https://tongji.baidu.com/](https://tongji.baidu.com/)申请自己的网站ID并在此处替换，否则将无法正常统计访问量
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
-# 请到revolvermaps [http://www.revolvermaps.com/?target=setupgl](http://www.revolvermaps.com/?target=setupgl)申请自己的网站ID并在此处替换，否则将无法正常统计访问量
-revolvermaps: 5ytn1ssq6za
-```
-
-关于统计
-------------------------------------
-
-本项目支持三种统计，分别是
-
-+ [百度统计](https://tongji.baidu.com)
-
-百度统计是后台统计，并没有再页面有任何展示，但是可以通过登录百度统计官网查看更详细的访问记录分析。
-当Fork本项目之后需要去百度统计官网申请自己的baidu统计ID替换 `_config.yml` 文件中的 `baidu_analysis`。
-
-+ [revolvermaps地图统计](http://www.revolvermaps.com/)
-
-revolvermaps地图统计是展示在左侧当行栏的地图展示，具体展示形式可以去官网定制。
-当Fork本项目之后需要去revolvermaps地图官网申请自己的统计ID， 替换`_config.yml` 文件中的 `revolvermaps`。
-
-+ [不蒜子统计](http://busuanzi.ibruce.info/)
-
-不蒜子统计是出现在页面右上角的`本站总访问量n次`统计，本统计会自动识别客户所对应的域名，根据不同域名统计，所以并不需要Fork本项目者做任何修改。
-更多不蒜子的展示方式可以去官网查看。
-
-
-如何写文章
-------------------------------------
-
-在`LessOrMore/_posts`目录下新建一个文件，可以创建文件夹并在文件夹中添加文件，方便维护。在新建文件中粘贴如下信息，并修改以下的`titile`,`date`,`categories`,`tag`的相关信息，添加`* content {:toc}`为目录相关信息，在进行正文书写前需要在目录和正文之间输入至少2行空行。然后按照正常的Markdown语法书写正文。
-
-``` bash
 ---
-layout: post
-#标题配置
-title:  标题
-#时间配置
-date:   2016-08-27 01:08:00 +0800
-#大类配置
-categories: document
-#小类配置
-tag: 教程
-#设置文章置顶
-topping: true
+layout: home
+title: Jekyll Gitbook Theme
+permalink: /
 ---
 
-* content
-{:toc}
+Make Jelly site have a GitBook look!
 
+## Demo
 
-我是正文。我是正文。我是正文。我是正文。我是正文。我是正文。
+Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
+
+[![Jekyll Themes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/jekyll-gitbook/)
+
+## Why Jekyll with GitBook
+
+GitBook is an amazing frontend style to present and organize contents (such as book chapters
+and blogs) on Web. The typical to deploy GitBook at [Github Pages][1]
+is building HTML files locally and then push to Github repository, usually to the `gh-pages`
+branch. It's quite annoying to repeat such workload and make it hard for people do version
+control via git for when there are generated HTML files to be staged in and out.
+
+This theme takes style definition out of generated GitBook site and provided the template
+for Jekyll to rendering markdown documents to HTML, thus the whole site can be deployed
+to [Github Pages][1] without generating and uploading HTML bundle every time when there are
+changes to the original repo.
+
+## How to Get Started
+
+This theme can be used just as other [Jekyll themes][1] and support [remote theme][12],
+see [the official guide][13] as well.
+
+You can introduce this jekyll theme into your own site by either
+
+- [Fork][3] this repository and add your markdown posts to the `_posts` folder.
+- Use as a remote theme in your [`_config.yml`][14](just like what we do for this
+  site itself),
+
+```yaml
+remote_theme: sighingnow/jekyll-gitbook
 ```
 
-执行
-------------------------------------
+### Deploy Locally with Jekyll Serve
 
-``` bash
-jekyll server
+This theme can be ran locally using Ruby and Gemfiles.
+
+[Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) - GitHub
+
+## Full-text search
+
+The search functionality in jekyll-gitbook theme is powered by the [gitbook-plugin-search-pro][5] plugin and is enabled by default.
+
+[https://sighingnow.github.io/jekyll-gitbook/?q=generated](https://sighingnow.github.io/jekyll-gitbook/?q=generated)
+
+## Code highlight
+
+The code highlight style is configurable the following entry in `_config.yaml`:
+
+```yaml
+syntax_highlighter_style: colorful
 ```
 
-效果
-------------------------------------
-打开浏览器并输入URL`http://localhost:4000/`,回车。
+The default code highlight style is `colorful`, the full supported styles can be found from [the rouge repository][6]. Customized
+style can be added to [./assets/gitbook/rouge/](./assets/gitbook/rouge/).
 
+## How to generate TOC
 
-为什么重复造轮子
-====================================
+The jekyll-gitbook theme leverages [jekyll-toc][4] to generate the *Contents* for the page.
+The TOC feature is not enabled by default. To use the TOC feature, modify the TOC
+configuration in `_config.yml`:
 
-很明显，我在重复造轮子。在13年接触到GIT，14年末接触到Jekyll，然后搭建了自己的博客，当时是选用了[JekyllThemes](http://jekyllthemes.org/)上的[Solar](https://github.com/mattvh/solar-theme-jekyll)主题，一直到现在。不过中间一直感觉页面风格还是偏暗，阅读不方便。并且有一些小的细节做的不是很好。在页面的跨平台浏览上有一些瑕疵。并且不区分一级标题和二级标题，导致没有重点强调。诸如此类，用了2年，用的越多，越发吃力，中间就一直在寻找新的能够让我一眼认定的主题。
+```yaml
+toc:
+    enabled: true
+    h_min: 1
+    h_max: 3
+```
 
-虽然设计好看的主题很多。但是真正适合拿来做博客的却不多。中间一直没有找到合适的主题。直到有一天看到Less官网的主题之后，豁然觉得这就是我的博客想要的样子。简单而又不平凡。所以就决定了要把博客迁移到这个主题，然后拿了两天晚上来把这个主题做出来。
+## Google Analytics, etc.
 
-重复造了轮子，但是这个是迄今为止自己觉得最适合我的博客的轮子，所以是值得的！
+The jekyll-gitboook theme supports embedding the [Google Analytics][7], [CNZZ][8] and [Application Insights][9] website analytical tools with the following
+minimal configuration in `_config.yaml`:
 
-关于作者
-====================================
+```yaml
+tracker:
+  google_analytics: "<YOUR GOOGLE ANALYTICS KEY, e.g, UA-xxxxxx-x>"
+```
 
-热爱开源，热爱折腾的Java程序猿。更多个人信息和联系方式可以参照[我的首页](https://github.com/luoyan35714/)。
+Similarly, CNZZ can be added with the following configuration in `_config.yaml`
 
-写在最后
-====================================
+```yaml
+tracker:
+  cnzz: "<YOUR CNZZ ANALYTICS KEY, e.g., xxxxxxxx>"
+```
 
-如果你也像我一样在寻觅一个简洁的博客主题。不妨试下LessOrMore。
+Application Insights can be added with the following configuration in `_config.yaml`
 
-之前此处是有打赏功能的，不过最近在整理自己，发现打赏功能偏离了我写这个Jekyll主题的初衷，所以删除了打赏功能。
+```yaml
+tracker:
+  application_insights: "<YOUR APPLICATION INSIGHTS CONNECTION STRING>"
+```
 
-非常感谢之前打赏过的朋友们！！
+## Extra StyleSheet or Javascript elements
+
+You can add extra CSS or JavaScript references using configuration collections:
+
+- extra_css: for additional style sheets. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
+- extra_header_js: for additional scripts to be included in the `<head>` tag, after the `extra_css` has been added. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
+- extra_footer_js: for additional scripts to be included at the end of the HTML document, just before the site tracking script. If the url does not start by http, the path must be relative to the root of the site, without a starting `/`.
+
+## Customizing font settings
+
+The fonts can be customized by modifying the `.book.font-family-0` and `.book.font-family-1` entry in [`./assets/gitbook/custom.css`][10],
+
+```css
+.book.font-family-0 {
+    font-family: Georgia, serif;
+}
+.book.font-family-1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+```
+
+## Tips, Warnings and Dangers blocks
+
+The jekyll-gitbook theme supports customized kramdown attributes (`{: .block-tip }`, `{: .block-warning }`,
+`{: .block-danger }`) like that displayed in [the discord.js website][11]. The marker can be used like
+
+```markdown
+> ##### TIP
+>
+> This guide is last tested with @napi-rs/canvas^0.1.20, so make sure you have
+> this or a similar version after installation.
+{: .block-tip }
+```
+
+Rendered page can be previewed from
+
+[https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html)
+
+## Cover image inside pages
+
+The jekyll-gitbook theme supports adding a cover image to a specific page by adding
+a `cover` field to the page metadata:
+
+```diff
+  ---
+  title: Page with cover image
+  author: Tao He
+  date: 2022-05-24
+  category: Jekyll
+  layout: post
++ cover: /assets/jekyll-gitbook/dinosaur.gif
+  ---
+```
+
+The effect can be previewed from
+
+[https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-05-24-page_cover.html)
+
+## License
+
+This work is open sourced under the Apache License, Version 2.0.
+
+Copyright 2019 Tao He.
+
+[1]: https://pages.github.com
+[2]: https://pages.github.com/themes
+[3]: https://github.com/sighingnow/jekyll-gitbook/fork
+[4]: https://github.com/allejo/jekyll-toc
+[5]: https://github.com/gitbook-plugins/gitbook-plugin-search-pro
+[6]: https://github.com/rouge-ruby/rouge/tree/master/lib/rouge/themes
+[7]: https://analytics.google.com/analytics/web/
+[8]: https://www.cnzz.com/
+[9]: https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
+[10]: https://github.com/sighingnow/jekyll-gitbook/blob/master/gitbook/custom.css
+[11]: https://discordjs.guide/popular-topics/canvas.html#setting-up-napi-rs-canvas
+[12]: https://rubygems.org/gems/jekyll-remote-theme
+[13]: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+[14]: https://github.com/sighingnow/jekyll-gitbook/blob/master/_config.yml

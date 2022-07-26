@@ -1,26 +1,59 @@
-# Site settings
-name: Less Or More
-email: luoyan35714@126.com
-author: Freud Kang
-url: 
-resume_site: http://www.hifreud.com/Resume.io/
-github: https://github.com/luoyan35714/
-baseurl: 
-description: Actually, less is more!
-meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
-motto: It's our wits that make us men.
-banner: 学而不思则罔，思而不学则殆。
+# Configurations
+title:            ecoWaste 사용자매뉴얼
+longtitle:        ecoWaste 사용자매뉴얼
+author:           ㈜미니소프트
+email:            example@example.com
+description:      ㈜미니소프트
 
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
+version:          1.0
+gitbook_version:  3.2.3
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+url:              
+baseurl:          
+rss:              RSS
 
-github_username: luoyan35714
+# bootstrap: use the remote theme for the site itself
+remote_theme: sighingnow/jekyll-gitbook
 
-# Build settings
-markdown: kramdown
+toc:
+  enabled: true
+  h_min: 1
+  h_max: 3
 
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+# markdown render engine.
+markdown:         kramdown
+kramdown:
+  auto_ids:               true
+  input:                  GFM
+  math_engine:            mathjax
+  smart_quotes:           lsquo,rsquo,ldquo,rdquo
+  toc_levels:             1..6
+  syntax_highlighter:     rouge
+  syntax_highlighter_opts:
+    guess_lang:           true
 
+syntax_highlighter_style: colorful
+
+markdown_ext:     markdown,mkdown,mkdn,mkd,md
+
+# Permalinks
+permalink:        /:categories/:year-:month-:day-:title:output_ext
+
+exclude:
+  - _drafts
+
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+
+page_width: 800px
+
+destination:      ./_site
+incremental:      false
+regenerate:       true
+
+plugins:
+  - jekyll-feed
+  - jekyll-readme-index
+  - jemoji

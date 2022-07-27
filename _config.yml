@@ -1,16 +1,16 @@
 # Configurations
-title:            ecoWaste 사용자매뉴얼
-longtitle:        ecoWaste 사용자매뉴얼
-author:           ㈜미니소프트
-email:            example@example.com
-description:      ㈜미니소프트
+title: ecoWaste 사용자매뉴얼
+longtitle: ecoWaste 사용자매뉴얼
+author: ㈜미니소프트
+email: support@ecowaste.co.kr
+description: ㈜미니소프트
 
-version:          1.0
-gitbook_version:  3.2.3
+version: 1.0
+gitbook_version: 3.2.3
 
-url:              
-baseurl:          
-rss:              RSS
+url: 
+baseurl: 
+rss: RSS
 
 # bootstrap: use the remote theme for the site itself
 remote_theme: sighingnow/jekyll-gitbook
@@ -21,23 +21,23 @@ toc:
   h_max: 3
 
 # markdown render engine.
-markdown:         kramdown
+markdown: kramdown
 kramdown:
-  auto_ids:               true
-  input:                  GFM
-  math_engine:            mathjax
-  smart_quotes:           lsquo,rsquo,ldquo,rdquo
-  toc_levels:             1..6
-  syntax_highlighter:     rouge
+  auto_ids: true
+  input: GFM
+  math_engine: mathjax
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  toc_levels: 1..6
+  syntax_highlighter: rouge
   syntax_highlighter_opts:
-    guess_lang:           true
+    guess_lang: true
 
 syntax_highlighter_style: colorful
 
-markdown_ext:     markdown,mkdown,mkdn,mkd,md
+markdown_ext: markdown,mkdown,mkdn,mkd,md
 
 # Permalinks
-permalink:        /:categories/:year-:month-:day-:title:output_ext
+permalink: /:categories/:year-:month-:day-:title:output_ext
 
 exclude:
   - _drafts
@@ -49,9 +49,9 @@ collections:
 
 page_width: 800px
 
-destination:      ./_site
-incremental:      false
-regenerate:       true
+destination: ./_site
+incremental: false
+regenerate: true
 
 plugins:
   - jekyll-feed

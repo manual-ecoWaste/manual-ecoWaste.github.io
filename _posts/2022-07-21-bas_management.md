@@ -7,7 +7,7 @@ layout: post
 
 ***
 
-## 매출업체관리
+### 매출업체관리
 ✓화면설명: 매출업체(일반, 단발성)를 관리하는 화면입니다  
 ![](/images/bas/sales_cust.png)
 
@@ -22,7 +22,7 @@ layout: post
 
 ***
 
-## 운송업체관리(지입차량)
+### 운송업체관리(지입차량)
 ✓화면설명: 운송업체(지입, 자차)를 관리하는 화면입니다  
 ![](/images/bas/trans_cust_cd.png)
 
@@ -38,7 +38,7 @@ layout: post
 
 ***
 
-## 운송업체관리(용역차량)
+### 운송업체관리(용역차량)
 ✓화면설명: 운송업체(용차)를 관리하는 화면입니다  
 ![](/images/bas/trans_cust_cb.png)
 
@@ -58,13 +58,13 @@ layout: post
 
 ***
 
-## 운반차량현황
+### 운반차량현황
 ✓화면설명: 운반차량 현황을 조회하는 화면입니다 (자차 제외)  
 ![](/images/bas/trans_car_list.png)
 
 ***
 
-## 처리업체관리
+### 처리업체관리
 ✓화면설명: 처리업체를 관리하는 화면입니다.  
 ![](/images/bas/disposal_cust_management.png)
 
@@ -82,7 +82,7 @@ layout: post
 
 ***
 
-## 운반단가관리(지입차량)
+### 운반단가관리(지입차량)
 ✓화면설명: 지입 차량의 운반단가를 관리하는 화면입니다  
 ![](/images/bas/trans_cost_management_cd.png)
 
@@ -94,7 +94,7 @@ layout: post
 
 ***
 
-## 적재함박스정보
+### 적재함박스정보
 ✓화면설명: 적재함을 관리하고 최근 운행이력을 조회하는 화면입니다  
 ![](/images/bas/box_info.png)
 

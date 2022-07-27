@@ -7,7 +7,7 @@ layout: post
 
 ***
 
-## 매출청구작성
+### 매출청구작성
 ✓화면설명: 폐기물 운반내역의 매출을 청구하는 화면입니다  
 ![](/images/bill/sales_bill_write1.png)  
 ![](/images/bill/sales_bill_write2.png)  
@@ -29,7 +29,7 @@ layout: post
 
 ***
 
-## 청구상세
+### 청구상세
 ✓화면설명: 청구된 운반내역 조회 및 수정을 할 수 있는 화면입니다  
 ![](/images/bill/bill_detail_1.png)  
 ![](/images/bill/bill_detail_2.png)  
@@ -63,7 +63,7 @@ layout: post
 
 ***
 
-## 매출청구확정
+### 매출청구확정
 ✓화면설명: 업체별로 매출을 청구하는 화면입니다  
 ![](/images/bill/sales_bill_confirm.png)
 
@@ -82,7 +82,7 @@ layout: post
 
 ***
 
-## 청구수기등록
+### 청구수기등록
 ✓화면설명: 계약없이 수기로 청구 등록하는 화면입니다  
 ![](/images/bill/bill_hand_write.png)
 
@@ -98,7 +98,7 @@ layout: post
 
 ***
 
-## 거래명세서발생
+### 거래명세서발생
 ✓화면설명: 거래명세서 출력, 이메일전송, 세금계산서를 다운로드 하는 화면입니다  
 ![](/images/bill/trade_bill_report1.png)  
 ![](/images/bill/trade_bill_report2.png)  
@@ -117,7 +117,7 @@ layout: post
 
 ***
 
-## 수금관리
+### 수금관리
 ✓화면설명: 미수금과 수금완료 목록을 관리하는 화면입니다  
 ![](/images/bill/collect_management.png)
 
@@ -140,37 +140,37 @@ layout: post
 
 ***
 
-## 수금조회
+### 수금조회
 ✓화면설명: 수금내역을 조회하고 적요, 의뢰인, 처리점, 비고를 작성하는 화면입니다  
 ![](/images/bill/collect_search.png)
 
 ***
 
-## 대손처리현황
+### 대손처리현황
 ✓화면설명: : 대손처리 현황을 조회하는 화면입니다  
 ![](/images/bill/credit_cost_list.png)
 
 ***
 
-## 거래처별 매출 마감현황
+### 거래처별 매출 마감현황
 ✓화면설명: 거래처별 매출마감 현황을 조회하는 화면입니다  
 ![](/images/bill/cust_by_sales_close_list.png)
 
 ***
 
-## 년도월별 매출 현황
+### 년도월별 매출 현황
 ✓화면설명: 혼합 / 폐콘 별 년도 월별 매출 현황을 조회하는 화면입니다  
 ![](/images/bill/year_month_by_sales_list.png)
 
 ***
 
-## 매출채권현황
+### 매출채권현황
 ✓화면설명: 업체별 매출채권 현황을 조회하는 화면입니다  
 ![](/images/bill/sales_bond_list.png)
 
 ***
 
-## 선급금 등록
+### 선급금 등록
 ✓화면설명: 선급금을 관리하는 화면입니다  
 ![](/images/bill/first_cost_insert.png)
 
@@ -184,7 +184,7 @@ layout: post
 
 ***
 
-## 매입작성
+### 매입작성
 ✓화면설명: 매입(운반, 처리)을 작성하는 화면입니다  
 ![](/images/bill/purchase_write.png)
 
@@ -200,7 +200,7 @@ layout: post
 
 ***
 
-## 대금지급 등록
+### 대금지급 등록
 ✓화면설명: 매입 작성된 내역을 관리하고 정산하는 화면입니다  
 ![](/images/bill/payment_insert.png)
 
@@ -219,7 +219,7 @@ layout: post
 
 ***
 
-## 매입 거래명세서 발생
+### 매입 거래명세서 발생
 ✓화면설명: 거래명세서, 세금계산서, 차량운반대장을 출력하는 화면입니다  
 ![](/images/bill/purchase_report_generation.png)
 
@@ -232,6 +232,6 @@ layout: post
 
 ***
 
-## 매입채무 현황
+### 매입채무 현황
 ✓화면설명: 매입채무 현황을 조회하는 화면입니다  
 ![](/images/bill/purchase_debenture_list.png)

@@ -4,7 +4,7 @@ title: ecoWaste 사용자 매뉴얼
 permalink: /
 ---
 
-## 목차
+### 목차
 
 - [ecoWaste 사용자매뉴얼][1]
 - [기준정보관리][2]
@@ -13,9 +13,15 @@ permalink: /
 - [SYSTEM관리][5]
 - [공통][6]
 
-## License
+### minisoft
 
-Copyright ⓒ 2022 minisoft All Rights Reserved.
+- 문의: support@ecowaste.co.kr
+- Tel: 02-6959-2559
+- Fax: 070-7603-1444
+
+### License
+
+- Copyright ⓒ 2022 minisoft All Rights Reserved.
 
 <!-- dev link -->
 <!-- [1]: http://127.0.0.1:4000/jekyll/2022-07-20-ecoWaste_install_login.html

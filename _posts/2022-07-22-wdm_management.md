@@ -7,7 +7,7 @@ layout: post
 
 ***
 
-## 계약관리
+### 계약관리
 ✓화면설명: 계약을 관리하는 화면입니다  
 ![](/images/wdm/contract_management.png)
 
@@ -18,7 +18,7 @@ layout: post
 
 ***
 
-## 계약상세
+### 계약상세
 
 ✓화면설명: 계약 정보를 관리하는 팝업입니다  
 ![](/images/wdm/contract_detail1.png)  
@@ -74,7 +74,7 @@ layout: post
 
 ***
 
-## 계약현황
+### 계약현황
 ✓화면설명: 계약의 내역을 확인할 수 있는 화면입니다  
 ![](/images/wdm/contract_list.png)
 
@@ -83,7 +83,7 @@ layout: post
 
 ***
 
-## 배차계획
+### 배차계획
 ✓화면설명: 예정된 배차를 미리 계획하고 문자를 전송하는 화면입니다  
 ![](/images/wdm/car_reservation.png)
 
@@ -105,7 +105,7 @@ layout: post
 
 ***
 
-## 적재함배치등록
+### 적재함배치등록
 ✓화면설명: 적재함을 관리하고 최근 운행이력을 조회하는 화면입니다  
 ![](/images/wdm/box_reservation.png)
 
@@ -127,7 +127,7 @@ layout: post
 
 ***
 
-## 일일반출입관리
+### 일일반출입관리
 ✓화면설명: 운반내역을 관리하는 화면입니다  
 ![](/images/wdm/import_export_management.png)
 
@@ -161,7 +161,7 @@ layout: post
 
 ***
 
-## 일일반출입관리-단발성계약
+### 일일반출입관리-단발성계약
 ✓화면설명: 단발성으로 이루어지는 계약을 관리하는 팝업입니다  
 ![](/images/wdm/short_import_export_management.png)
 
@@ -176,7 +176,7 @@ layout: post
 
 ***
 
-## 폐기물직송운반
+### 폐기물직송운반
 ✓화면설명: 직송 운반 내역을 관리하는 화면입니다  
 ![](/images/wdm/waste_direct_trans.png)
 
@@ -198,7 +198,7 @@ layout: post
 
 ***
 
-## 반입확인
+### 반입확인
 ✓화면설명: 반입, 직송 운반내역을 관리하는 화면입니다  
 ![](/images/wdm/import_check.png)
 
@@ -214,7 +214,7 @@ layout: post
 
 ***
 
-## 반출확인
+### 반출확인
 ✓화면설명: 반출, 직송 운반내역을 관리하는 화면입니다  
 ![](/images/wdm/export_check.png)
 
@@ -227,13 +227,13 @@ layout: post
 
 ***
 
-## 운송현황
+### 운송현황
 ✓화면설명: 운송 현황을 조회하는 화면입니다  
 ![](/images/wdm/trans_list.png)
 
 ***
 
-## 운반내역-인계서연결
+### 운반내역-인계서연결
 ✓화면설명: 올바로시스템의 운반자 인계서를 조회하여 폐기물 운반내역의 정보를 변경하는 화면입니다  
 ![](/images/wdm/trans_list-if_link.png)
 
@@ -261,7 +261,7 @@ layout: post
 
 ***
 
-## 운반자인계서조회
+### 운반자인계서조회
 ✓화면설명: 올바로시스템의 운반자 인계서를 기반으로 처리확인서를 출력하는 화면입니다  
 ![](/images/wdm/if_list_search.png)
 

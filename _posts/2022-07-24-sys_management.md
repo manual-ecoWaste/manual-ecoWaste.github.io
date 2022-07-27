@@ -7,7 +7,7 @@ layout: post
 
 ***
 
-## 공지사항
+### 공지사항
 ✓화면설명: 공지사항을 관리하는 화면입니다  
 ![](/images/sys/board_management.png)
 
@@ -21,7 +21,7 @@ layout: post
 
 ***
 
-## 스케줄
+### 스케줄
 ✓화면설명: 최초 로그인시 보여지는 화면이며 스케줄 공유 및 작성할 수 있는 화면입니다  
 ![](/images/sys/schedule.png)
 
@@ -34,7 +34,7 @@ layout: post
 
 ***
 
-## 대시보드
+### 대시보드
 ✓화면설명: 폐기물 운반내역 기준으로 매출현황을 확인하는 화면입니다  
 ![](/images/sys/dash_board.png)
 

@@ -18,7 +18,7 @@ layout: post
 - 1.2) 일괄생성: 선택된 청구를 청구일자 기준으로 일괄청구  
 - 1.3) 청구작성: 청구일자 선택 후 청구 작성 클릭 시 [청구상세](#청구상세) 팝업 호출  
 - 1.4) 청구목록 정보 선택 시 우측 운반내역 상세 조회  
-- 1.5) 청구목록 상세 클릭 및 더블클릭 시 [계약상세](#계약상세) 팝업 호출  
+- 1.5) 청구목록 상세 클릭 및 더블클릭 시 [계약상세][10] 팝업 호출  
 
 2) 현장별 청구 목록: 현장별 청구 목록 상세 클릭 및 더블 클릭 시 [청구상세](#청구상세) 팝업 호출
 
@@ -91,7 +91,7 @@ layout: post
 - 1.1) 확정: 청구상태 “작성중” -> 확정  
 - 1.2) 확정취소: 청구상태 “확정” -> 작성중  
 
-2) 추가: [업체검색](#업체검색) 팝업 호출  
+2) 추가: [업체검색][2] 팝업 호출  
 
 ✓특이사항
 - 계약번호 생성 규칙 -> 청구일자 + 청구내용
@@ -193,7 +193,7 @@ layout: post
 
 2) 일괄생성 버튼 : 클릭 시 작성기준일을 기준으로 선택한 업체들 매입 작성(대금지급 등록 화면에서 확인 가능)  
 
-3) 매입작성 버튼 : 클릭 시 선택된 업체 당일 날짜로 매입작성 & [매입 상세](#매입상세) 팝업 호출  
+3) 매입작성 버튼 : 클릭 시 선택된 업체 당일 날짜로 매입작성 & [매입 상세][9] 팝업 호출  
 
 ✓특이사항
 - 일괄생성 시 작성기준일을 선택하지 않으면 당일 날짜로 매입 작성
@@ -211,7 +211,7 @@ layout: post
 
 3) (-) 버튼 클릭 시 정산 내역 상세 보기 닫기  
 
-4) 상세 컬럼 클릭이나 행 더블 클릭 시 [매입 상세](#매입상세) 팝업 호출  
+4) 상세 컬럼 클릭이나 행 더블 클릭 시 [매입 상세][9] 팝업 호출  
 
 5) 지급추가 버튼 : 클릭 시 정산(선급금 있을 시 선급정산)  
 
@@ -235,3 +235,15 @@ layout: post
 ### 매입채무 현황
 ✓화면설명: 매입채무 현황을 조회하는 화면입니다  
 ![](/images/bill/purchase_debenture_list.png)
+
+<!-- 링크 -->
+[1]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#계약검색(현장검색)
+[2]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#업체검색
+[3]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#문자메시지전송
+[4]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#주소검색
+[5]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#사용자검색
+[6]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#배출자-검색-올바로-시스템
+[7]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#처리자-검색-올바로-시스템
+[8]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#올바로-에코-코드연결-관리
+[9]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#매입상세
+[10]: https://manual-ecowaste.github.io/jekyll/2022-07-22-wdm_management#계약상세

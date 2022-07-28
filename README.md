@@ -4,6 +4,8 @@ title: ecoWaste 사용자 매뉴얼
 permalink: /
 ---
 
+***
+
 ### 목차
 
 - [ecoWaste 사용자매뉴얼][1]
@@ -22,6 +24,10 @@ permalink: /
 ### License
 
 - Copyright ⓒ 2022 minisoft All Rights Reserved.
+
+***
+
+![](/images/ecoLogo.png)
 
 <!-- real link -->
 [1]: https://manual-ecowaste.github.io/jekyll/2022-07-20-ecoWaste_install_login.html

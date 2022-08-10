@@ -3,7 +3,6 @@ title: ecoWaste 설치 및 로그인
 author: ㈜미니소프트
 category: Jekyll
 layout: post
-# cover: /assets/jekyll-gitbook/dinosaur.gif
 ---
 
 ***

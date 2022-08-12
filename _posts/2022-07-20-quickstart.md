@@ -173,6 +173,7 @@ layout: post
 {: .block-warning }
 
 ***
+
 ![](/images/fst/grid_row_filter.png)
 > ##### 데이터 행 필터 기능
 >
@@ -184,6 +185,7 @@ layout: post
 {: .block-tip }
 
 ***
+
 ![](/images/fst/grid_filter_edit.png)
 > ##### 데이터 필터 편집기
 >

@@ -1,5 +1,5 @@
 ---
-title: 빠른시작
+title: 빠른 시작 가이드
 author: ㈜미니소프트
 category: Jekyll
 layout: post

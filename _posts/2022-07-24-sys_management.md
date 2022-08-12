@@ -7,7 +7,7 @@ layout: post
 
 ***
 
-### 공지사항
+### 공지사항 관리
 ✓화면설명: 공지사항을 관리하는 화면입니다  
 ![](/images/sys/board_management.png)
 

@@ -17,13 +17,13 @@ layout: post
 
 ### Chrome에서 사이트 접속 방법 및 ecoWaste설치
 - Chrome 브라우저 실행 (설치 전이면 크롬 다운로드하여 설치: [다운로드][1]
-- Chrome 브라우저 주소 입력창에 ecoWaste 사이트 주소(<http://app.ecowaste.co.kr/Updater/publish.htm>) 입력 후 엔터하여 설치 화면으로 이동
+- Chrome 브라우저 주소 입력창에 ecoWaste 사이트 주소(<http://app.ecowaste.co.kr/Updater/publish.htm>) 입력 후 엔터 하여 설치 화면으로 이동
 - 설치 버튼을 눌러 ecoWaste 설치
 ![](/images/com/install.png)  
 
 
 ### 로그인방법
-- 바탕화면에있는 ecoWaste 아이콘 클릭 후 응용프로그램 실행
+- 바탕화면에있는 ecoWaste 바로가기 아이콘 클릭 후 응용프로그램 실행
 
 > ##### ※ 최초 비밀번호는 [1234]
 >

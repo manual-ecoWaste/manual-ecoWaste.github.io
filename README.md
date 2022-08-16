@@ -32,10 +32,10 @@ permalink: /
 
 <!-- real link -->
 [1]: https://manual-ecowaste.github.io/quickstart/
-[2]: https://manual-ecowaste.github.io/bas_management/
-[3]: https://manual-ecowaste.github.io/wdm_management/
-[4]: https://manual-ecowaste.github.io/bill_management/
-[5]: https://manual-ecowaste.github.io/sys_management/
+[2]: https://manual-ecowaste.github.io/bas/
+[3]: https://manual-ecowaste.github.io/wdm/
+[4]: https://manual-ecowaste.github.io/bill/
+[5]: https://manual-ecowaste.github.io/sys/
 [6]: https://manual-ecowaste.github.io/common/
 [7]: https://manual-ecowaste.github.io/begin/
 

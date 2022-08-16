@@ -1,7 +1,7 @@
 ---
 title: 빠른 시작 가이드
 author: ㈜미니소프트
-category: Jekyll
+category: quickstart
 layout: post
 ---
 

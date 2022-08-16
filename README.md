@@ -31,11 +31,11 @@ permalink: /
 ![](/images/ecoLogo.png)
 
 <!-- real link -->
-[1]: https://manual-ecowaste.github.io/jekyll/2022-07-20-quickstart.html
-[2]: https://manual-ecowaste.github.io/jekyll/2022-07-21-bas_management.html
-[3]: https://manual-ecowaste.github.io/jekyll/2022-07-22-wdm_management.html
-[4]: https://manual-ecowaste.github.io/jekyll/2022-07-23-bill_management.html
-[5]: https://manual-ecowaste.github.io/jekyll/2022-07-24-sys_management.html
-[6]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common.html
-[7]: https://manual-ecowaste.github.io/jekyll/2022-07-26-ecoWaste_install_login.html
+[1]: https://manual-ecowaste.github.io/quickstart/
+[2]: https://manual-ecowaste.github.io/bas_management/
+[3]: https://manual-ecowaste.github.io/wdm_management/
+[4]: https://manual-ecowaste.github.io/bill_management/
+[5]: https://manual-ecowaste.github.io/sys_management/
+[6]: https://manual-ecowaste.github.io/common/
+[7]: https://manual-ecowaste.github.io/begin/
 

@@ -1,7 +1,7 @@
 ---
 title: 기준정보관리
 author: ㈜미니소프트
-category: Jekyll
+category: bas
 layout: post
 ---
 
@@ -105,12 +105,12 @@ layout: post
 - 필수 입력 항목: 박스 번호
 
 <!-- 링크 -->
-[1]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#계약검색(현장검색)
-[2]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#업체검색
-[3]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#문자메시지전송
-[4]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#주소검색
-[5]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#사용자검색
-[6]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#배출자-검색-올바로-시스템
-[7]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#처리자-검색-올바로-시스템
-[8]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#올바로-에코-코드연결-관리
-[9]: https://manual-ecowaste.github.io/jekyll/2022-07-25-common#매입상세
+[1]: https://manual-ecowaste.github.io/common/#계약검색(현장검색)
+[2]: https://manual-ecowaste.github.io/common/#업체검색
+[3]: https://manual-ecowaste.github.io/common/#문자메시지전송
+[4]: https://manual-ecowaste.github.io/common/#주소검색
+[5]: https://manual-ecowaste.github.io/common/#사용자검색
+[6]: https://manual-ecowaste.github.io/common/#배출자-검색-올바로-시스템
+[7]: https://manual-ecowaste.github.io/common/#처리자-검색-올바로-시스템
+[8]: https://manual-ecowaste.github.io/common/#올바로-에코-코드연결-관리
+[9]: https://manual-ecowaste.github.io/common/#매입상세

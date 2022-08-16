@@ -1,7 +1,7 @@
 ---
 title: SYSTEM관리
 author: ㈜미니소프트
-category: Jekyll
+category: sys
 layout: post
 ---
 
